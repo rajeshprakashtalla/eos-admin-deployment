@@ -7,7 +7,7 @@
     labels:
       name: build
   spec:
-    serviceAccount: jenkins-admin
+    serviceAccount: jenkins
     containers:
     - name: build
       image: dpthub/eos-jenkins-agent-base:latest
